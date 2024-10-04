@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+}
+.container .img-hand {
+  width: 15%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/hand-heart.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.container p {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "TT Chocolates", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+.container .img-logo {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/logo-150x87.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=style.css.map */
