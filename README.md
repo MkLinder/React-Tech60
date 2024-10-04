@@ -1,50 +1,9 @@
-# React + TypeScript + Vite
+# Tech 60+
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este blog tem o objetivo de incluir e incentivar o público idoso a usar a tecnologia a seu favor.
+Um blog especialmente criado para ajudar pessoas idosas a navegar pelo mundo da tecnologia com confiança e facilidade. Aqui você encontrará tutoriais passo a passo, dicas simples e acessíveis sobre smartphones, redes sociais, aplicativos, segurança digital e muito mais. Nosso objetivo é tornar a tecnologia acessível para todos, com uma linguagem clara e exemplos práticos, sempre respeitando o ritmo de cada um. Não importa sua experiência, sempre há algo novo para aprender! Conecte-se ao futuro com confiança e descubra como a tecnologia pode melhorar o seu dia a dia.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+<br>
+<div align="center">
+  <img src="./src/assets/preview.png">
+</div>
