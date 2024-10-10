@@ -1,10 +1,14 @@
-* {
-    margin: 0;
-    padding: .3rem;
-    box-sizing: border-box;
+:root {
+    --gradient: linear-gradient(
+        to right, 
+        rgb(124,211,237), 
+        rgb(27,175,219), 
+        rgb(18,115,202)
+    )
 }
 
-body {
-    height: 100vh;
-    background-color: #c4e0ff;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }

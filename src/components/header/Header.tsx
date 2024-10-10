@@ -2,10 +2,10 @@ import './style.css'
 
 export function Header(){
     return (
-        <section className='container'>
-            <span className="img-hand"></span>
-            <p>Desenvolvido por <b>Mike Linder</b></p>
-            <span className="img-logo"></span>
+        <section id='header-container'>
+            <span id="img-hand"></span>
+            <p id='owner'>Desenvolvido por <b>Mike Linder</b></p>
+            <span id="img-logo"></span>
         </section>
     )
 }

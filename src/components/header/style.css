@@ -1,26 +1,25 @@
-.container {
+#header-container {
   display: flex;
 }
-.container .img-hand {
-  width: 15%;
+#header-container #img-hand {
+  width: 10%;
   height: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-right: 0.2rem;
   background-image: url("../../assets/hand-heart.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
-.container p {
+#header-container #owner {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  gap: 0.3rem;
   font-family: "TT Chocolates", sans-serif;
   font-size: 1rem;
   text-align: center;
 }
-.container .img-logo {
+#header-container #img-logo {
   width: 30%;
   display: flex;
   justify-content: center;
@@ -28,4 +27,21 @@
   background-image: url("../../assets/logo-150x87.png");
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: right;
+}
+
+@media screen and (max-width: 640px) {
+  #header-container #img-hand {
+    width: 15%;
+    height: 2rem;
+    margin-right: 0.3rem;
+  }
+  #header-container #owner {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 321px) {
+  #header-container #owner {
+    font-size: 0.8rem;
+  }
 }/*# sourceMappingURL=style.css.map */

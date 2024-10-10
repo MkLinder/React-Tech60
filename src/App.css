@@ -1,0 +1,22 @@
+.container {
+    height: 100%;
+    padding: 2rem;
+
+    background: linear-gradient(45deg, #7cd3ed7c, #96C9F4, #c4e0ff81);
+    background-size: 300% 300%;
+    animation: colorsBackground 15s ease infinite;
+}
+
+@keyframes colorsBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
