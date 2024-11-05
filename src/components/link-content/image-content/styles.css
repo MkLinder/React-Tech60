@@ -1,0 +1,14 @@
+#img {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    #image-content {
+        display: flex;
+        height: 160px;
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+}

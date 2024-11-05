@@ -1,6 +1,6 @@
 .container {
     height: 100%;
-    padding: 2rem;
+    padding: 1.5rem 1rem;
 
     background: linear-gradient(45deg, #7cd3ed7c, #96C9F4, #c4e0ff81);
     background-size: 300% 300%;
@@ -20,3 +20,27 @@
         background-position: 0% 50%;
     }
 }
+
+
+@media screen and (min-width: 431px) { 
+    div#root {
+        height: 100vh;
+    }
+
+    .container {
+        padding: 2rem;
+    }
+}
+
+/* 
+@media screen and (min-width: 1280px) { 
+
+} */
+
+
+/* @media screen and (min-width: 1800px) { 
+
+    .container {
+        padding: 2rem;
+    }
+} */

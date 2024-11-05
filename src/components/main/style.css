@@ -1,4 +1,6 @@
 .content {
+  height: 100vh;
+  padding: 0;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -6,22 +8,27 @@
   justify-content: center;
 }
 .content .main {
-  max-width: 80%;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.6rem;
   text-align: center;
 }
-.content .img-smartphone {
-  width: 120px;
-  height: 154px;
+.content .description {
+  font-size: 1.5rem;
+}
+.content #img-smartphone {
+  display: flex;
+  width: 86px;
+  height: 150px;
   padding: 0;
   margin-top: 1rem;
+  background-size: cover;
+  background-position: center;
   background-image: url("../../assets/smartphone.png");
   background-repeat: no-repeat;
 }
-.content .img-1tech {
+.content #img-1tech {
   width: 300px;
   height: 231px;
   margin-top: 1rem;
@@ -30,60 +37,74 @@
   background-size: 240px;
   background-position: center;
 }
+.content #subtitle {
+  font-family: "Averia Serif Libre", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.6rem;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.72);
+}
+.content #links-list {
+  width: 100%;
+  padding: 1rem;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0705882353);
+  border-radius: 0.6rem;
+}
+.content #links-list #topics-list {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.content #links-list #topics-list a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.content #links-list #topics-list a:hover {
+  color: #c4e0ff;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.253);
+}
 
 .iframe {
   width: 50%;
   height: 200px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 431px) {
   .content {
-    margin-top: 3rem;
-    gap: 3rem;
-  }
-  .content .main {
-    max-width: 100%;
-    padding: 0 1rem;
-  }
-  .content .img-smartphone {
-    width: 120px;
-    height: 205px;
-    margin-top: 1rem;
-    background-size: cover;
-    background-position: center;
-  }
-  .content .img-1tech {
-    margin: 0;
-    width: 100%;
-    height: 195px;
-    background-size: 200px;
-  }
-}
-@media screen and (max-width: 321px) {
-  .page .title {
-    margin-top: 2rem;
-  }
-  .page .title p {
-    font-size: 1.2rem;
-  }
-  .page .title h1 {
-    font-size: 3.8rem;
-  }
-  .page .content {
-    margin-top: 0;
+    height: 100%;
     gap: 1rem;
   }
-  .page .content .main {
-    font-size: 1.4rem;
+  .content .main {
+    font-size: 2rem;
   }
-  .page .content .img-smartphone {
-    width: 63px;
-    height: 100px;
-    margin-top: 0;
+  .content .description {
+    font-size: 1.8rem;
   }
-  .page .content .img-1tech {
-    background-size: 113px;
-    width: 100%;
-    height: 112px;
+  .content #img-smartphone {
+    height: 30%;
+    position: relative;
+    bottom: -30px;
+    background-size: contain;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .content {
+    gap: 1rem;
+  }
+  .content .main {
+    padding: 0 12rem;
+  }
+  .content #img-smartphone {
+    margin: 0;
+    bottom: -35px;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .content .main {
+    padding: 0 24rem;
   }
 }/*# sourceMappingURL=style.css.map */

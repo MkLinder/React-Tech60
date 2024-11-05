@@ -1,0 +1,12 @@
+h4 {
+    padding-left: .7rem;
+    margin: 1.8rem 0 0;
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+
+    background: linear-gradient(45deg, #ffffff69, transparent);
+    border-radius: .6rem;
+}

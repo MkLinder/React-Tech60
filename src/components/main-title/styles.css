@@ -14,7 +14,7 @@
   font-family: "Averia Serif Libre", serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: rgba(0, 0, 0, 0.72);
 }
 #title h1 {
@@ -30,7 +30,7 @@
   font-family: "Averia Serif Libre", serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 7rem;
+  font-size: 4.9rem;
   background-image: var(--gradient);
   background-clip: text;
   -webkit-background-clip: text;
@@ -38,15 +38,22 @@
   text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1411764706);
 }
 
-@media screen and (max-width: 640px) {
-  #title {
-    padding: 0 1rem;
-    margin-top: 3rem;
-  }
-  #title p {
-    font-size: 1.4rem;
+@media screen and (min-width: 431px) {
+  #title h6 {
+    font-size: 2.1rem;
   }
   #title h1 {
-    font-size: 4.4rem;
+    font-size: 7rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  #title {
+    margin-top: 1rem;
+  }
+  #title h6 {
+    font-size: 2rem;
+  }
+  #title h1 {
+    font-size: 8rem;
   }
 }/*# sourceMappingURL=styles.css.map */

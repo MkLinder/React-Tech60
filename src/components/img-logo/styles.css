@@ -1,0 +1,11 @@
+#img-logo {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('../../assets/logo-150x87.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}

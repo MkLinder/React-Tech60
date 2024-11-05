@@ -1,14 +1,12 @@
-import './style.css'
+import { MainContent_1 } from './main-content/Main-content-1';
+import { MainContent_2 } from './main-content/Main-content-2';
 
-export function Main(){
-    return(
+export function Main() {
+    const { innerWidth: width } = window;
+
+    return (
         <>
-            <section className="content">
-                <p className="main">
-                    Preparado(a) para explorar tudo o que a tecnologia tem de melhor, de maneira fácil e prática?
-                </p>
-                <span className="img-smartphone"></span>
-            </section>
+            {innerWidth < 431 ? <MainContent_1 /> : <MainContent_2 />}
         </>
     )
 }
