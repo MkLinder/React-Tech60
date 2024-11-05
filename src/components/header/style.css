@@ -4,7 +4,7 @@
 }
 #header-container #img-hand {
   width: 15%;
-  height: 3rem;
+  height: 1.7rem;
   margin-right: 0.5rem;
   background-image: url("../../assets/hand-heart.png");
   background-size: contain;
@@ -17,7 +17,7 @@
   justify-content: flex-start;
   gap: 0.3rem;
   font-family: "TT Chocolates", sans-serif;
-  font-size: 1.1rem;
+  font-size: 0.7rem;
   text-align: center;
 }
 
