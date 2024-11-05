@@ -23,11 +23,11 @@
 
 @media screen and (min-width: 431px) {
   #header-container #img-hand {
-    width: 16%;
+    background-size: contain;
     margin-right: 0.3rem;
   }
   #header-container #owner {
-    font-size: 1.8rem;
+    font-size: 1rem;
   }
 }
 @media screen and (min-width: 1280px) {
