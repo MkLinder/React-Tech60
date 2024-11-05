@@ -11,7 +11,7 @@ function App() {
     <div className="container">
       <Router>
         <Routes>
-          <Route path='/React-Tech60' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/conhecendo-o-smartphone' element={<ConhecendoOSmartphone />} />
           <Route path='/ligando-o-smartphone' element={<LigandoOSmartphone />} />
         </Routes>
